@@ -1,31 +1,15 @@
-# React + TypeScript + Vite
+# Bitcoin Price Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a Bitcoin price tracker designed to help users find the cheapest place to buy Bitcoin on the internet. It utilizes API calls from various platforms including [transak.com](https://transak.com), [moonpay.com](https://moonpay.com), [guardarian.com](https://guardarian.com), and [paybis.com](https://paybis.com) to provide real-time pricing information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Pricing:** Utilizes API calls to fetch real-time pricing information from multiple platforms.
+- **Comparison:** Allows users to compare prices across different platforms to find the best deal.
+- **User-Friendly Interface:** Designed with a clean and intuitive interface for easy navigation.
+- **React TypeScript:** Built using React with TypeScript for improved code readability and maintainability.
+- **Backend:** Utilizes [airCode.io](https://aircode.io) as the backend for handling API requests and responses.
 
-## Expanding the ESLint configuration
+## How to Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Bitcoin-Price-Tracker
+1. Clone the repository to your local machine.
