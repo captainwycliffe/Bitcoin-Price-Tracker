@@ -1,4 +1,4 @@
-# Bitcoin Price Tracker App
+# 📈🔍 Bitcoin Price Tracker App 📉💰
 
 This application is a Bitcoin price tracker designed to help users find the cheapest place to buy Bitcoin on the internet. It utilizes API calls from various platforms including [transak.com](https://transak.com), [moonpay.com](https://moonpay.com), [guardarian.com](https://guardarian.com), and [paybis.com](https://paybis.com) to provide real-time pricing information.
 
