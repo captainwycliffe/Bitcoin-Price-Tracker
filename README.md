@@ -13,3 +13,7 @@ This application is a Bitcoin price tracker designed to help users find the chea
 ## How to Use
 
 1. Clone the repository to your local machine.
+`
+git clone https://github.com/your-username/bitcoin-price-tracker.git
+
+`
